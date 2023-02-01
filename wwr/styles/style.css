@@ -18,7 +18,6 @@ nav a {
 }
 #hero-img{
     width: 100%;
-    border: solid#182125;
     box-sizing: border-box;
 }
 .icon{
@@ -27,6 +26,10 @@ nav a {
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
+}
+#hero {
+    border: solid #182125;
+    padding-bottom: 35px;
 }
 .button-box{
     text-align: center;
