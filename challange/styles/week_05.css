@@ -1,0 +1,11 @@
+#container{
+    display: inline-block;   
+}
+.grid{
+    display: block;
+    max-width: 1600px;
+}
+.main{
+    width: 100%;
+    
+}
