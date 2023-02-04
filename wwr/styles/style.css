@@ -37,6 +37,7 @@ main section img {
     box-sizing: border-box;
 }
 #background {
+    background-color: #9caa4b;
     height: 725px;
     margin: 200px 0;
 }
@@ -73,10 +74,7 @@ nav a:hover{
 .card-img {
     border: 10px solid #182125;
 }
-#background{
-    background-color: #9caa4b;
 
-}
 .msg{
     background-color: #182125;
     line-height: 1.5em;

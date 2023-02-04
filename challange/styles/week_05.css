@@ -1,11 +1,18 @@
-#container{
-    display: inline-block;   
-}
-.grid{
-    display: block;
-    max-width: 1600px;
-}
-.main{
-    width: 100%;
+div{
+    display: inline-block;
     
+    
+}
+.main {
+    display: block;
+    width: 100%;
+}
+#background{
+    height: 500px;
+    color: #000000;
+
+}
+.grid {
+    
+    border-radius: 50%;
 }
