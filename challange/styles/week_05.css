@@ -1,18 +1,25 @@
-div{
+main {
     display: inline-block;
-    
-    
-}
-.main {
-    display: block;
     width: 100%;
 }
-#background{
-    height: 500px;
-    color: #000000;
-
+.main_img{
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 .grid {
+    background-image: images/ba;
+    max-height: 100%;
+    margin: 0 auto;
+    padding: 0;
+
+}
+div img {
+    border-radius: 70%;
+    max-width: 80%;
+    margin: 22px;
+    padding: 35px;
+    border: solid#000000;
     
-    border-radius: 50%;
 }
