@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Tangerine:wght@400;700&display=swap');
 
 header {
     display: grid;
@@ -144,6 +144,7 @@ nav a:hover{
     color: #9caa4b;
     font-family:Tangerine, Helvetica, sans-serif; 
     font-size: 2.5em;
+    
 
 }
 .msg p{
@@ -161,8 +162,9 @@ h4{
 .home-title{
     color: #9caa4b;
     font-family: Tangerine, Helvetica, sans-serif;
-    font-size: 2em;
-    margin-top: 10px;
+    font-weight: 700; 
+    font-size: 3.5em;
+    margin: 2rem 0 .5rem 0; ;
 }
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
