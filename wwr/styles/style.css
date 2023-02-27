@@ -169,6 +169,54 @@ h4{
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
 }
+/* start of Rivers page css*/
+#hero_rivers{
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+}
+#River-box{
+    grid-column: 1/12;
+    grid-row: 1/4;
+}
+#hero_rivers-img{
+    width: 100%;
+    max-height: 100%;
+}
+#river-msg{
+    grid-column: 2/8;
+    grid-row: 2/3;
+}
+.river-title {
+    color: #9caa4b;
+}
+#river-msg h3{
+    color: #f5f5f5;
+}
+.river-img{
+    width: 300px; 
+    max-height: 300px;
+    float: left;
+    margin-right:10px
+}
+.river_info, .river_h2{
+    padding-left: 50px;
+}
+.river_info{
+    box-sizing: border-box;
+    margin: 20px auto 50px auto;
+}
+#first_river{
+    background-color: #9caa4b;
+    text-align: left;
+
+}
+#first_river p{
+    align-self: center;
+}
+.river_welcome{
+    padding-left: 50px;
+}
+/*End of rivers page css*/
 footer{
     background-color: #103556;
     color: #f5f5f5;
