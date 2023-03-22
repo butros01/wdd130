@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Easter Safari Events | Home</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="js/myjs.js"></script>
 </head>
 <body>
     <div class="content">
@@ -15,35 +16,45 @@
             </a>
             <nav>
                 <a href="index.html"> Home</a>
-                <a href="places.html"> Places</a>
-                <a href="activities.html">Activities</a>   
+                <a href="activities.html"> Activities</a>
+                <a href="places.html">places</a>     
             </nav>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html"> Home</a>
+                <a href="activities.html"> Activities</a>
+                <a href="places.html">places</a>    
+            </div>
+              <!-- Use any element to open the sidenav -->
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
         </header>
-        <div id="home_intro">
-            <img class="home_intro_img" src="images/intro_img.jpg" alt="safari van on the park">
-            <h3 class="home-title">Easter Safari Event</h3>
-            <p class="intro-par">Looking for a place to spend your 2023 long Easter weekend. Good Friday, April 7, will mark the 
-            beginning of the Easter holiday weekend in 2023, which will continue until Easter Monday, April 10.
-            This year, we are planning to go all out, and we have a variety of activities in store that are geared
-            at making your Easter season a special and memorable one. Come one come all for a breath taking experience.
-            </p>      
+        <div id="main">
+            <div id="home_intro">
+                <img class="home_intro_img" src="images/intro_img.jpg" alt="safari van on the park">
+                <h3 class="home-title">Easter Safari Event</h3>
+                <p class="intro-par">Looking for a place to spend your 2023 long Easter weekend. Good Friday, April 7, will mark the 
+                beginning of the Easter holiday weekend in 2023, which will continue until Easter Monday, April 10.
+                This year, we are planning to go all out, and we have a variety of activities in store that are geared
+                at making your Easter season a special and memorable one. Come one come all for a breath taking experience.
+                </p>      
+            </div>  
+            <div id="home_grid">
+                <h1>Available Events</h1>
+                <img class= "activities_img activities" src="images/activities.jpg" alt="teenagers riding bikes">
+                <a href="activities.html" class="activities_button">Activities</a>
+                <img class="places_img places" src="images/places.jpg" alt="teenagers viewing rift-valley">  
+                <a href="places.html" class="places_button" target="_blank">Places</a>
+                <section class="home_msg">
+                    <h2>Profound experience with nature</h2>
+                    <p>
+                        Take some time to appreciate the Nature. It's not only the wildlife and the Great Rift-Valley;
+                        but also hiking, mountain climbing, and ziplining. It is a wonderful opportunity to get away 
+                        from it all and relax in the midst of all the splendor that the great outdoors has to offer 
+                        during this Easter Holiday. 
+                    </p>
+                </section>
+            </div>
         </div>
-        <main id="home_grid">
-            <h1>Available Events</h1>
-            <img class= "activities_img activities" src="images/activities.jpg" alt="teenagers riding bikes">
-            <a href="activities.html" class="activities_button">Activities</a>
-            <img class="places_img places" src="images/places.jpg" alt="teenagers viewing rift-valley">  
-            <a href="places.html" class="places_button" target="_blank">Places</a>
-            <section class="home_msg">
-                <h2>Profound experience with nature</h2>
-                <p>
-                    Take some time to appreciate the Nature. It's not only the wildlife and the Great Rift-Valley;
-                    but also hiking, mountain climbing, and ziplining. It is a wonderful opportunity to get away 
-                    from it all and relax in the midst of all the splendor that the great outdoors has to offer 
-                    during this Easter Holiday. 
-                </p>
-            </section>
-        </main>
         <footer>
                 <p>Easter Safari Events &copy; 2023 - Butros Kioko</p>
                 <p><a href="site-plan.html">Site Plan</a></p>
