@@ -451,7 +451,7 @@ footer .social img {
     .places-button, .activities-button {
         display: flex;
         margin-bottom: 20px;
-        width: 10%;
+        width: 100px;
 
     }
     p {
