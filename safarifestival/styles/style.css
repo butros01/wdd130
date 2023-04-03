@@ -263,7 +263,7 @@ img {
     margin: 100px 0 150px 0;
     padding: 2px 20px 0 20px;
     color: var(--primary-color);
-    background-color: var(--accent2-color);
+    background-color: rgb(255,255,255,.4);
 }
 
 #activities-grid {
@@ -345,7 +345,7 @@ img {
     margin: 100px 0 150px 0;
     padding: 2px 20px 0 20px;
     color: var(--primary-color);
-    background-color: var(--accent2-color);
+    background-color: rgb(255,255,255,.7);
 }
 
 #places-grid {
@@ -425,17 +425,20 @@ footer .social img {
 
 
  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 900px) {
+@media screen and (max-width: 900px) {
     .sidenav {
         padding-top: 15px;
     }
     .sidenav a {
         font-size: 18px;
     }
-    #home-intro, #home-grid, .places-intro, #places-grid, #activities-grid, .activities-intro {
-    display: inline-block;
-    height: auto;
-    box-sizing: border-box;
+    #home-intro, #home-grid, #places-grid, #activities-grid{
+        display: inline-block;
+        height: auto;
+        box-sizing: border-box;
+    }
+    #places-intro,  #activities-intro, .home-intro-img  {
+        display: none;
     }
     nav, footer {
         flex-direction: column;
@@ -463,4 +466,8 @@ footer .social img {
     footer {
         margin-top: 25px;
     } 
+    footer .social img {
+        padding-top: 15px;
+        width: 30px;
+    }
 }  
